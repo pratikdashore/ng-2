@@ -1,0 +1,7 @@
+{
+  "data":[
+    {"id": 10, "name": "John", "state": "Florida"},
+    {"id": 20, "name": "Ward", "state": "California"},
+    {"id": 30, "name": "Mary", "state": "Alaska"}
+  ]
+}

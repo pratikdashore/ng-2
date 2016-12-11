@@ -1,0 +1,10 @@
+
+<ul>
+  <li *ngFor="let customer of customers" (click)="selectIt(customer)"
+    [class.selected]="isSelected(customer)">
+    {{customer.name}}
+  </li>
+</ul>
+
+<my-customer-detail
+  [customer]="selectedCustomer"></my-customer-detail>

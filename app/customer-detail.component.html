@@ -1,0 +1,8 @@
+<div *ngIf="customer">
+  Hello {{customer.name}}
+  <div>id: {{customer.id}}</div>
+  <input [(ngModel)]="customer.name">
+  <input [(ngModel)]="customer.state">
+  <button (click)="showMessage()">Push Me</button>
+  <div>{{message}}</div>
+</div>
